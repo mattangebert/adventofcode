@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-$input = file('./input');
+$input = file('./input.txt');
 trebuchet($input);
 
 function trebuchet(array $inputs):int {
